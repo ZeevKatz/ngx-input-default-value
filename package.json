@@ -1,7 +1,23 @@
 {
   "name": "ngx-input-default-value",
   "version": "8.0.0",
-  "description": "",
+  "author": {
+    "name": "Zeev Katz",
+    "url": "https://github.com/zeevkatz"
+  },
+  "bugs": {
+    "url": "https://github.com/zeevkatz/ngx-d3/issues"
+  },
+  "description": "A decorator that set default values to your component inputs and properties",
+  "keywords": [
+    "ngx-input-default-value",
+    "angular-input-default-value",
+    "ng-input-default-value",
+    "input default value",
+    "ng",
+    "ngx",
+    "angular"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "ng-packagr && rm dist/ngx-input-default-value.metadata.json",
