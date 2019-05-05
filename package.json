@@ -4,13 +4,8 @@
   "description": "",
   "license": "MIT",
   "scripts": {
-    "build": "ng-packagr -p package.json && rm dist/ngx-input-default-value.metadata.json",
+    "build": "ng-packagr && rm dist/ngx-input-default-value.metadata.json",
     "test": "jest --env=node"
-  },
-  "ngPackage": {
-    "lib": {
-      "entryFile": "public_api.ts"
-    }
   },
   "maintainers": [
     "Zeev Katz"
