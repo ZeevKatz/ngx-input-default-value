@@ -1,6 +1,6 @@
 [![npm](https://img.shields.io/npm/dt/ngx-input-default-value.svg)]()
 [![npm](https://img.shields.io/npm/l/ngx-input-default-value.svg)]()
-[![Build Status](https://api.travis-ci.org/zeevkatz/ngx-input-default-value.svg?branch=master)]()
+[![Build Status](https://travis-ci.com/ZeevKatz/ngx-input-default-value.svg?branch=master)]()
 
 # Angular | Default value for inputs and properties️ ⚡
 
