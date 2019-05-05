@@ -2,21 +2,31 @@
 [![npm](https://img.shields.io/npm/l/ngx-input-default-value.svg)]()
 [![Build Status](https://api.travis-ci.org/zeevkatz/ngx-input-default-value.svg?branch=master)]()
 
-# Angular - Default value for inputs and properties
+# Angular | Default value for inputs and properties️ ⚡
 
-##### A simple way to set default values to your component inputs and properties using a decorator.
+ A simple way to set default values to your component inputs and properties using a decorator.
 
-## Installation
+🚀 See it in action on [Stackblitz](https://stackblitz.com/edit/ngx-input-default-value-demo)
 
-`yarn add ngx-input-default-value`
+---
+
+### Installation
+
+```bash
+yarn add ngx-input-default-value
+```
 
 or 
 
-`npm install ngx-input-default-value --save`
+```bash
+npm install ngx-input-default-value --save
+```
 
-## Usage
+---
 
-```ts
+### Usage
+
+```typescript
 @Component({
   selector: 'simple-component',
   templateUrl: './simple-component.component.html',
@@ -46,7 +56,7 @@ export class SimpleComponent implements OnChanges {
 
 ### Use with any class
 
-```ts
+```typescript
 class SimpleClass {
   @InputDefaultValue<SimpleObject>({
     bar: 'Default bar value',
@@ -72,5 +82,3 @@ instance.simpleObject = null;
 instance.simpleObject;
 // => { bar: 'Default bar value', foo: 'Default foo value' }
 ```
-
-[Live example](https://stackblitz.com/edit/ngx-input-default-value-demo)
