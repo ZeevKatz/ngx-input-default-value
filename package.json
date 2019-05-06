@@ -3,10 +3,10 @@
   "version": "8.0.3",
   "author": {
     "name": "Zeev Katz",
-    "url": "https://github.com/zeevkatz"
+    "url": "https://github.com/ZeevKatz"
   },
   "bugs": {
-    "url": "https://github.com/zeevkatz/ngx-d3/issues"
+    "url": "https://github.com/ZeevKatz/ngx-input-default-value/issues"
   },
   "description": "A decorator that set default values to your component inputs and properties",
   "keywords": [
