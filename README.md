@@ -1,5 +1,5 @@
-[![npm](https://img.shields.io/npm/dt/ngx-input-default-value.svg)]()
-[![npm](https://img.shields.io/npm/l/ngx-input-default-value.svg)]()
+[![npm](https://img.shields.io/npm/dt/@katze/ngx-input-default-value.svg)]()
+[![npm](https://img.shields.io/npm/l/@katze/ngx-input-default-value.svg)]()
 [![Build Status](https://travis-ci.com/ZeevKatz/ngx-input-default-value.svg?branch=master)]()
 
 # Angular | Default value for inputs and properties️ ⚡
@@ -13,13 +13,13 @@
 ### Installation
 
 ```bash
-yarn add ngx-input-default-value
+yarn add @katze/ngx-input-default-value
 ```
 
 or 
 
 ```bash
-npm install ngx-input-default-value --save
+npm install @katze/ngx-input-default-value --save
 ```
 
 ---
