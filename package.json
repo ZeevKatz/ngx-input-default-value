@@ -1,5 +1,5 @@
 {
-  "name": "ngx-input-default-value",
+  "name": "@katze/ngx-input-default-value",
   "version": "8.0.4",
   "author": {
     "name": "Zeev Katz",
@@ -14,13 +14,14 @@
     "angular-input-default-value",
     "ng-input-default-value",
     "input default value",
+    "katze",
     "ng",
     "ngx",
     "angular"
   ],
   "license": "MIT",
   "scripts": {
-    "build": "ng-packagr && rm dist/ngx-input-default-value.metadata.json",
+    "build": "ng-packagr && rm dist/katze-ngx-input-default-value.metadata.json",
     "test": "jest --env=node"
   },
   "maintainers": [
