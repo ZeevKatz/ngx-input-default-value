@@ -1,6 +1,10 @@
 {
   "name": "@katze/ngx-input-default-value",
+<<<<<<< HEAD
   "version": "8.0.6",
+=======
+  "version": "8.0.5",
+>>>>>>> 1e92135... release: 8.0.5
   "author": {
     "name": "Zeev Katz",
     "url": "https://github.com/ZeevKatz"
