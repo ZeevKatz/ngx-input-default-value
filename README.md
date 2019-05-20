@@ -27,6 +27,11 @@ npm install @katze/ngx-input-default-value --save
 ### Usage
 
 ```typescript
+import { Component, ChangeDetectionStrategy, OnChanges, SimpleChanges, Input } from '@angular/core';
+import { InputDefaultValue } from '@katze/ngx-input-default-value';
+
+type SimpleObject = { bar: string, foo: string };
+
 @Component({
   selector: 'simple-component',
   templateUrl: './simple-component.component.html',
@@ -57,6 +62,10 @@ export class SimpleComponent implements OnChanges {
 ### Use with any class
 
 ```typescript
+import { InputDefaultValue } from '@katze/ngx-input-default-value';
+
+type SimpleObject = { bar: string, foo: string };
+
 class SimpleClass {
   @InputDefaultValue<SimpleObject>({
     bar: 'Default bar value',
